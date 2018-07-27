@@ -1,0 +1,14 @@
+.TituloCompra
+{
+    text-align: center;
+    color: red;
+}
+.img
+{
+    max-width: 260px;
+    max-height: 150px;
+    margin:0 40px;
+}
+.textAlig{
+    text-align: center;
+}

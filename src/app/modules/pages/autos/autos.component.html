@@ -1,0 +1,13 @@
+<div class="container-fluid" >
+    <div class="row ">
+      <div class="col-md-2 col-sm-3 col-4 mt-2"  *ngFor="let c of AutosFiltrados">
+          <img class="card-img-top " style="max-height: 250px; max-width: 192px; align-self: center;" src= {{c.Portada}} alt="Card image cap">
+          <div class="card-body align-self: center">
+            <h5 class="card-title text-center">{{c.Name}}</h5>
+            <p class="card-text">
+              <!-- <a routerLink= {{c.src}}>Ver pelicula</a> -->
+            </p>
+        </div>
+      </div>
+    </div>
+  </div> 
